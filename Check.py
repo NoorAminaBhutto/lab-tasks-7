@@ -1,0 +1,7 @@
+my_set = {10, 20, 30, 40, 50}
+num = int(input("Enter a number: "))
+
+if num in my_set:
+    print("in set")
+else:
+    print("not in set")
